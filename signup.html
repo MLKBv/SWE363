@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Sign UP</title>
+        <link rel= "stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                
+                <div class="logo">
+                    <img src="images/gis_logo.png" alt="Logo" width="100%" height="60px"> 
+                </div>
+
+                <div class="m-list">
+
+                            <li class="list-item"><a href="#">MAPS</a></li>
+                            <li class="list-item"><a href="#">RESOURCES</a></li>
+                            <li class="list-item"><a href="#">EVENTS</a></li>
+                            <li class="list-item"><a href="#">PRODUCTS</a></li>
+                </div>
+
+                <div class="right">
+                    <div class="login">
+                        <img src="images/login_logo.jpg" alt="Login" width="65%" height="45px">
+                    </div>
+                    <div class="right-list">
+                         <a href="#">Sign in /</a>
+                         <a href="#">Sign up</a>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="signup">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Enter Your last Name">
+              
+                <br>
+                <br>
+    
+                <label for="Email">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter Your Email">
+              
+                <br>
+                <br>
+    
+                <label for="Password">Password</label>
+                <input type="text" id="Password" name="lastname" placeholder="Enter Your Password">
+    
+                <label for="Password">Confirm Password</label>
+                <input type="text" id="Password" name="lastname" placeholder="Confirm Your Password">
+              
+                <br>
+                <br>
+    
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="select">Select</option>
+                    <option value="">Abha</option>
+                    <option value="">Dammam</option>
+                    <option value="">Jeddah</option>
+                    <option value="">Riyadh</option>
+                  </select>
+                
+                <br>
+                <br>
+
+                  <label for="favorite cities">Favorite Cities</label>
+                  <br>
+                  <select name="city" id="city" multiple>
+                    <option value="">Abha</option>
+                    <option value="">Dammam</option>
+                    <option value="">Jeddah</option>
+                    <option value="">Riyadh</option>
+                  </select>
+
+                <br>
+                <br>
+                
+                  <input type="submit" value="SIGN UP">
+                </form>
+              </div>
+
+        </div>
+    </body>
+</html>

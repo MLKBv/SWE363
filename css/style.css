@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    left: 100px;
+    padding: 0;
+    margin: 0;
+    justify-items: center;
+    align-content: center;
+    border: 1px black solid;
+    width: 80%;
+}
+
+/*///////////////Header/////////////////////*/
+
+.header {
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: lightgray;
+}
+
+.logo {
+    width: 15%;
+}
+
+.m-list {
+    width: 70%;
+}
+
+.right {
+    width: 15%;
+    text-align: center;
+}
+
+.list-item {
+    padding: 20px;
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.list-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.right-list {
+    position: relative;
+    bottom: 4px;
+    left: 18px;
+    color: black;
+    font-size: 12px;
+}
+
+.right-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.login {
+    position: relative;
+    left: 20px;
+}
+
+
+/*///////////////Sections and map/////////////////////*/
+
+.map {
+    position: relative;
+    left: 130px;
+}
+
+.info {
+    text-align: center;
+}
+
+.earth {
+    text-align: center;
+ }
+ 
+ .wallmap {
+     text-align: center;
+ }
+ 
+ .worldmap {
+     text-align: center;
+ }
+
+/*///////////////Sign In/////////////////////*/
+
+.signin {
+    text-align: center;
+    padding-top: 25px;
+}
+
+/*///////////////Sign Up/////////////////////*/
+
+.signup {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+/*///////////////cities pages/////////////////////*/
+
+.riyadh {
+    text-align: center;
+}
+
+.makkah {
+    text-align: center;
+}
+
+.dammam {
+    text-align: center;
+}
